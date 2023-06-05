@@ -13,13 +13,13 @@ function App() {
     });
   };
   return (
-    <div>
+    <>
       <h1>User Management</h1>
       <div>
         <AddUser addUser={addUser} />
         <Users users={users} />
       </div>
-    </div>
+    </>
   );
 }
 

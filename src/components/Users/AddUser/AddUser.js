@@ -52,7 +52,7 @@ export default function AddUser(props) {
   };
 
   return (
-    <div>
+    <>
       {showModal && (
         <Modal
           title={modalTitle}
@@ -69,6 +69,6 @@ export default function AddUser(props) {
           <Button type="submit">Add User</Button>
         </form>
       </Card>
-    </div>
+    </>
   );
 }
